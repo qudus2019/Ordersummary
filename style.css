@@ -1,0 +1,117 @@
+body{
+    background: url(Images/pattern-background-desktop.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-family: 'Outfit', sans-serif;
+}
+p, h1{
+    text-align: center;
+}
+h1{
+    font-size:1.5rem;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color:white;
+    width:700px;
+    margin:auto;
+    position: relative;
+
+    border-radius:20px;
+}
+.image{
+    width:100%;
+    border-radius:20px 20px 0px 0px;
+}
+.annualbox{
+    background-color:  hsl(225, 100%,98% );;
+    max-width:82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:5px;
+   padding-right:5%;
+    padding-left:5%;
+    box-sizing: border-box;
+    border-radius:9px;
+    
+}
+.icon-music{
+    
+    max-height:35px;
+}
+
+
+.box2{
+    box-sizing: border-box;
+    margin-left:-15%;
+
+}
+
+
+.btn{
+    max-width:75%;
+    color:white;
+    background-color: rgb(46, 41, 224);
+margin: auto;
+border-radius:5px;
+margin-top:20px;
+padding:8px;
+box-shadow:1px 1px 5px rgb(46, 41, 224);}
+
+
+ .price{
+     font-weight:700;
+ }
+span{
+    color :silver;}
+
+.firstparagh{color:silver;}
+
+.lastbtn{
+    text-decoration: none;
+    color:silver;
+}
+    
+#lastbtn{
+    padding-bottom:10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
+@media only screen and (max-width:560px){
+    
+   .container{ box-sizing: border-box;
+    background-color:white;
+    width: 80vw;
+    margin:auto;
+    position: relative;
+    top: 50px;
+    border-radius:20px;}
+   body{ background: url(Images/pattern-background-mobile.svg);
+    background-size:contain;
+    background-position:center ;
+}
+}
+@media only screen and (min-width:1240px) and (max-width:1440px){
+    
+    .container{ box-sizing: border-box;
+     background-color:white;
+     width: 25vw;
+     margin:auto;
+     position: relative;
+     top: 50px;
+     border-radius:20px;
+    border-bottom:1px solid blue}}
+
+    
+.btn:hover{
+    background-color: rgba(61, 60, 82, 0.9);
+}
+
